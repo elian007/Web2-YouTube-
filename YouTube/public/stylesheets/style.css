@@ -48,3 +48,8 @@ a {
   margin-left: 300px;
   font-size: 17px;
 }
+
+login{
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}

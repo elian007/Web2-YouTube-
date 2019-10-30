@@ -1,15 +1,49 @@
-<form action='./register' method='post'>
+<link rel='stylesheet' href='/views/styleLogin.css' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">YouTube Wannabe</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+
+</div>
+<br>
+<div>
+<form action='./authenticate' method='get'>
   <div class="form-group">
-    <label for="InputEmail1">Endereço de email</label>
-    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Seu email">
-    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+    <label for="InputEmail1">E-mail</label>
+    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="user@email.com     ">
+    <small id="emailHelp" class="form-text text-muted"><br>Nunca vamos compartilhar seu email, com ninguém.</small>
   </div>
 
   <div class="form-group">
-    <label for="InputPassword1">Senha</label>
+    <label for="InputPassword1"><br>Senha</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
   </div>
-  
+  <div><br></div>
   <button type="submit" class="btn btn-primary">Entrar</button>
 
+
+
+  <small id="emailHelp" class="form-text text-muted"><br><br>Não possue cadastro? Faça logo abaixo...</small>
+  
+  <form action='./register' method='post'>
+  <div class="form-group">
+    <label for="InputNome">Nome</label>
+    <input type="nome" class="form-control" aria-describedby="nomeHelp" placeholder="Digite seu nome...    ">
+  </div>
+  <div class="form-group">
+    <label for="InputEmail1">E-mail</label>
+    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="user@email.com">
+  </div>
+
+  <div class="form-group">
+    <label for="InputPassword1"><br>Senha</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha...">
+  </div>
+  <div><br></div>
+  <button type="submit" class="btn btn-primary">Cadastrar</button>
 </form>
+</div>

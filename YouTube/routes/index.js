@@ -28,9 +28,6 @@ router.get('/', async (req, res, next)=> {
 });
 
 
-
-
-
 /* Upload de vídeo */
 
 router.get('/upload', function(req, res, next) {
